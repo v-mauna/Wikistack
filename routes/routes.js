@@ -7,10 +7,7 @@ const main = require('../views/main');
 const userList = require('../views/userList');
 const userPages = require('../views/userPages');
 const wikiPage = require('../views/wikipage');
+const dbInfo = require ('../models/index');
 
 
-router.get('/', (req,res,next)=>{
-    res.send(main());
-});
-
-module.exports = router;
+module.exports = router
