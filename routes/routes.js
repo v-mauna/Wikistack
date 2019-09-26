@@ -10,7 +10,7 @@ const wikiPage = require('../views/wikipage');
 
 
 router.get('/', (req,res,next)=>{
-    res.send(layout());
+    res.send(main());
 });
 
 module.exports = router;
